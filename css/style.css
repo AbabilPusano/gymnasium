@@ -88,7 +88,16 @@ mark{
 	color: #fff; /* Warna teks */
 }
 
+/* Mengatur lebar input jam */
+.form-item input[type="time"] {
+    width: calc(100% - 40px); /* Lebar input minus lebar ikon */
+}
 
+/* Menyesuaikan ukuran ikon dengan ukuran input */
+.form-item .fontawesome-clock {
+    font-size: 20px; /* Ukuran ikon */
+    line-height: 40px; /* Tinggi ikon */
+}
 /* #Preload
 ================================================== */
 
