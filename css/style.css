@@ -12,6 +12,7 @@
  */
 /* #Primary
 ================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
 body{
 	font-family: 'Roboto', sans-serif;
@@ -64,6 +65,27 @@ h6, .h6 {
 }
 mark{
 	color:#fff;
+}
+
+.background {
+	background-color: #07155bd9;/* Biru transparan */
+	position: fixed;
+	top:100px;
+	left: 0;
+	width: 100%;
+	height: 185px; /* Ubah sesuai kebutuhan Anda */
+	z-index: -1; /* Mengatur z-index agar latar belakang berada di belakang teks */
+}
+
+.content {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding-top: 100px; /* Menyesuaikan padding atas agar tulisan berada di tengah vertikal */
+	/* padding-bottom : 50px; */
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #fff; /* Warna teks */
 }
 
 
