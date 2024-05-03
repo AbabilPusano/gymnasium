@@ -93,7 +93,7 @@
 
 				<!-- LOGO -->
 
-				<div class="logo" style="display: flex;">
+				<div class="logo">
 					<!-- <img src="img/logos/sv ipb 1.png" alt="" style="width: 130%; height:130%; margin-right: 20px;"> -->
 					<img src="img/logos/logo1.png" alt="" >
 					<!-- <h2 style="color: #EC008C;"> Gymnasium </h2>
@@ -121,8 +121,8 @@
 				<li>
 					<a href="#" >Detail</a>
 					<ul>
-						<!-- <li><a href="explore.html">Explore</a></li>
-						<li><a href="search.html">Search</a></li> -->
+						<!-- <li><a href="explore.html">Explore</a></li> -->
+						<li><a href="search.html">Penelusuran</a></li>
 						<li><a href="tandc.html">Syarat &amp; Ketentuan</a></li>
 						<li><a href="services.html">Layanan</a></li>
 						<!-- <li><a href="restaurant.html">Restaurant</a></li> -->
@@ -139,9 +139,9 @@
 				<li>
 					<a href="contact.html">kontak</a>
 				</li>
-				<!-- <li>
-					<a href="search.html"><span>book now</span></a>
-				</li> -->
+				<li>
+					<a href="search.html"><span>Pesan Sekarang</span></a>
+				</li>
 			</ul>
 		</div>
 	</nav>
@@ -225,7 +225,7 @@
 									</div>
 								</div> -->
 								<div class="col-8  col-sm-4 col-lg-2">
-									<a class="booking-button" href="search.html">Booking Sekarang</a>
+									<a class="booking-button" href="search.html">Pesan Sekarang</a>
 								</div>
 							</div>
 						</div>
@@ -478,34 +478,38 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="row justify-content-center">
-							<div class="col-md-3 col-xl-4 px-sm-0">
-								<div class="booking-sep-wrap">
-									<div class="input-daterange input-group" id="flight-datepicker-1">
-										<div class="form-item">
-											<span class="fontawesome-calendar"></span>
-											<input class="input-sm" type="text" autocomplete="off" id="booking-date" name="booking" placeholder="Tanggal" data-date-format="DD, MM d"/>
-											<!-- <span class="date-text date-depart"></span> -->
+						<div class="row justify-content-center home-translate">
+							<div class="col-xl-8">
+								<div class="row justify-content-center home-shadow">
+									<div class="col-md-3 px-sm-0">
+										<div class="booking-sep-wrap">
+											<div class="input-daterange input-group" id="flight-datepicker-1">
+												<!-- <div class="form-item"> -->
+													<span class="fontawesome-calendar"></span>
+													<input class="input-sm" type="text" autocomplete="off" id="booking-date" name="booking" placeholder="Tanggal" data-date-format="DD, MM d"/>
+													<!-- <span class="date-text date-depart"></span> -->
+												<!-- </div> -->
+											</div>
+										</div>			
+									</div>
+									<div class="col-md-6 px-sm-0">
+										<div class="booking-sep-wrap">
+											<div class="input-daterange input-group" id="flight-datepicker-1">
+												<div class="form-item">
+													<span class="fontawesome-clock"></span>
+													<input class="input-sm" type="time" id="check-in-time" name="check-in-time" placeholder="Jam Pemesanan Masuk" min="09:00" max="18:00" step="1800"/>
+												</div>
+												<div class="form-item">
+													<span class="fontawesome-clock"></span>
+													<input class="input-sm" type="time" id="check-out-time" name="check-out-time" placeholder="Jam Pemesanan Keluar" min="09:00" max="18:00" step="1800"/>
+												</div>
+											</div>  
 										</div>
 									</div>
+									<div class="col-md-3 px-sm-0">
+										<a class="booking-button-big" href="search.html">Periksa<br>Ketersediaan</a>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-6 col-xl-4 px-sm-0">
-								<div class="booking-sep-wrap">
-									<div class="input-daterange input-group" id="flight-datepicker-1">
-										<div class="form-item">
-											<span class="fontawesome-clock"></span>
-											<input class="input-sm" type="time" id="check-in-time" name="check-in-time" placeholder="Jam Pemesanan Masuk" min="09:00" max="18:00" step="1800"/>
-										</div>
-										<div class="form-item">
-											<span class="fontawesome-clock"></span>
-											<input class="input-sm" type="time" id="check-out-time" name="check-out-time" placeholder="Jam Pemesanan Keluar" min="09:00" max="18:00" step="1800"/>
-										</div>
-									</div>  
-								</div>
-							</div>
-							<div class="col-md-3 col-xl-2 px-sm-0">
-								<a class="booking-button-big" href="search.html">Periksa<br>Ketersediaan</a>
 							</div>
 						</div>	
 					</div>
