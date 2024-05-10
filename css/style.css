@@ -208,7 +208,7 @@ mark{
 	background-color: #f9f9f9;
 }
 .background-dark {
-	background-color: #030A2B;
+	background-color: #07155B;
 }
 .background-dark-1 {
 	background-color: #242424;
@@ -217,7 +217,7 @@ mark{
 	background-color: #1b1b1b;
 }
 .background-black {
-	background-color: #07155B;
+	background-color: #fff;
 }
 .background-black-2 {
 		background-color: #fff;
@@ -658,7 +658,7 @@ span.call-top:hover{
 	vertical-align: bottom;
 	line-height:20px;
 	letter-spacing: 2px;
-	color: #fff;
+	color: #07155B;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -742,7 +742,7 @@ span.call-top:hover{
 	transition: all 200ms linear; 
 }
 .menu > ul > li a:hover span {
-	background-color: #323232;
+	background-color: #07155B;
 	color: #fff;
 }
 .menu > ul > li > ul > li a:hover {
@@ -982,7 +982,7 @@ Mobile style's
 }
 .booking-hero-wrap{
 	position: relative;
-	background-color: #030a2bb7;
+	background-color: #303360d4;
 	padding: 15px;
 	display: block;
 	width: 100%;
@@ -1039,7 +1039,7 @@ Mobile style's
 	-webkit-transition: all 200ms linear;
 	transition: all 200ms linear; 
 	font-weight: 800;
-	border: 2px solid #EC008C; /* Border berwarna pink */
+	border: 4px solid #EC008C; /* Border berwarna pink */
 	background-color: #ffffff; /* Latar belakang putih */
 	color: #07155B	; /* Warna teks biru dongker */
 	border-radius: 30px; /* Sudut border dibulatkan */
@@ -1779,7 +1779,7 @@ select.form {
 }
 #flight-datepicker input:hover,
 #flight-datepicker-1 input:hover {
-	border-color: rgba(255,255,255,.3);
+	border-color: #EC008C;
 }
 #flight-datepicker input:hover,
 #flight-datepicker input:active,
@@ -2102,7 +2102,7 @@ select.form {
 	margin-top: -16px;
 	font-weight: 400;
 	text-transform: uppercase;
-	background-color: rgba(0,0,0,.8);
+	background-color: #ec008eb2;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	-webkit-transition: all 200ms linear;
@@ -3663,7 +3663,7 @@ figure.vimeo a img, figure.youtube a img {
 	display: inline-block;
 }
 .footer a{
-	color: #ccc;
+	color: #07155B;
 	display: block;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
